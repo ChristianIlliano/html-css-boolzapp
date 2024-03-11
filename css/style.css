@@ -76,7 +76,6 @@ img {
     margin: 0 auto;
     padding: 50px 0 ;
     width: 80%;
-    max-height: 1080px;
 }
 
 /* col-left */
@@ -90,21 +89,17 @@ img {
     position: relative;
 }
 
-.col-left .notification {
+.navigator {
     width: 32%;
-    margin-top: 96px;
     position: fixed;
 }
 
-.col-left .research-bar {
-        width: 32%;
-    margin-top: 208px;
-    position: fixed;
-}
 
 .scroll-contacts {
     overflow: scroll;
     padding-top: 273px;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -134,8 +129,6 @@ img {
     background-color: #eaeaea;
     color: #b1b1b1;
     font-size: 1.5rem;
-    position: fixed;
-    width: 32%;
 }
 
 .research-bar {
