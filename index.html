@@ -50,8 +50,10 @@
 
                     <!-- search-bar -->
                     <div>
-                        <div class="research-bar">
-
+                        <div class="research-bar flex">
+                            <button class="button-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            <label for="search"></label>
+                            <input id="search" type="search" placeholder="Cerca o inizia una nuova chat">
                         </div>
                     </div>
                     <!-- /search-bar -->
@@ -106,6 +108,30 @@
 
                 <!-- main -->
                 <main>
+                    <div class="container-mess flex dir-column p-40">
+                        <div class="justify-content-end flex">
+                        <div class="mess-right">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae minima dicta perspiciatis iure blanditiis explicabo qui id, praesentium totam harum quas repellendus quod sequi velit odit, molestiae exercitationem libero. Magni.</p>
+                        </div>
+                        </div>
+                        <div class="mess-left">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae minima dicta perspiciatis iure blanditiis explicabo qui id, praesentium totam harum quas repellendus quod sequi velit odit, molestiae exercitationem libero. Magni.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-bar flex ">
+                        <button class="button-emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </button>
+
+                        <label for="chat"></label>
+                        <input id="chat" type="text" placeholder="Scrivi un messaggio">
+
+                        <button class="button-emoji">
+                            <i class="fa-solid fa-microphone"></i>
+                        </button>
+
+                    </div>
 
                 </main>
                 <!-- /main -->
